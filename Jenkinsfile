@@ -3,5 +3,5 @@
 stage ('Build')
 node ('maven') {
     checkout scm
-    mvn 'clean package'
+    sh 'mvn clean package'
 }
