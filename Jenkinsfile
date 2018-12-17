@@ -1,6 +1,6 @@
 #!groovy
 @Library('jenkins-pipeline-library')
 
-maven {
+stage ('Build') {
    testpepiline()
 }
