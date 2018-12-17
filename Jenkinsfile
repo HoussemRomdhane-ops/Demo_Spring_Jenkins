@@ -1,3 +1,6 @@
 #!groovy
 @Library('jenkins-pipeline-library')
-testpipeline(Closure body)
+import hudson.model.*
+{
+  testpipeline(Closure body)
+}
