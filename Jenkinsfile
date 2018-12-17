@@ -1,5 +1,5 @@
 #!groovy
-@Library('jenkins-pipeline-library@Dev')
+@Library('jenkins-pipeline-library')
 import hudson.model.*
 stage ('Build')
 node ('maven') {
