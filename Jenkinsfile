@@ -1,3 +1,3 @@
 #!groovy
 @Library('jenkins-pipeline-library')
-testpipeline()
+testpipeline(Closure body)
