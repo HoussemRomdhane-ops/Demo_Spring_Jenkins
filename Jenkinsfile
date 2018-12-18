@@ -1,4 +1,4 @@
 #!groovy
-@Library('jenkins-pipeline-libraryy') _
+@Library('jenkins-pipeline-library') _
  testpipeline()   
 
