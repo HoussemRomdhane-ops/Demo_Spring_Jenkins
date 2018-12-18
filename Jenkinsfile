@@ -2,11 +2,11 @@
 
 
 
-maven {
+stage ('Build')
 
-        
+{    
 testpipeline()
-
+}
         
     
-}
+
