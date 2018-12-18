@@ -1,14 +1,4 @@
 #!groovy
-
-
-
-stage ('Build')
-
-{    
-        step('Init pipeline')
-        { testpipeline()
-
-        }
-}       
-    
+@Library('jenkins-pipeline-libraryy') _
+ testpipeline()   
 
