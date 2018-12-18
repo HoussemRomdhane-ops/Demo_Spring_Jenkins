@@ -5,8 +5,10 @@
 stage ('Build')
 
 {    
-testpipeline()
-}
-        
+        step('Init pipeline')
+        { testpipeline()
+
+        }
+}       
     
 
