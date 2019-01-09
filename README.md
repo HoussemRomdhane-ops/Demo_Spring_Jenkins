@@ -1,1 +1,1 @@
-edit the weebhook
+disactivating scm trigerring discover
