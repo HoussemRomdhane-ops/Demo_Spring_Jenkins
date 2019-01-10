@@ -1,4 +1,3 @@
 #!groovy
 @Library('jenkins-pipeline-library-multibranch') _
-testpipeline2()   
-
+iamp-service-pipeline()
